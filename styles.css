@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #2d3436;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #35424a;
+  color: #FFF;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: 3px solid #1d9ee8;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+  padding-bottom: 10px;
+  color: #7fffd4;
+}
+
+header nav {
+  text-align: center;
+}
+
+header nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+.list-item {
+  display: inline;
+}
+
+.list-item a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 5px;
+  transition: all 0.5s;
+}
+
+.list-item a:hover {
+  color:#1d9ee8;
+}
+
+main {
+  padding:  20px 0px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2{
+  color: #35424a;
+  border-bottom: 2px solid #1d9ee8;
+  padding-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #DDD;
+}
+
+th {
+  background: #1d9ee8;
+  color: #FFF;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+tr:hover {
+  cursor: pointer;
+  background: #c1e8ff;
+}
+
+/* projetos */
+#projetos article {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 25px -7px #bbffe8;
+}
+
+/* contato */
+form {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  width: 70%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 25px -7px #bbffe8;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border:  1px solid #DDD;
+  border-radius: 3px;
+}
+
+textarea {
+  font-family: "Montserrat", sans-serif;
+}
+
+form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #1d9ee8;
+  color: #FFF;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+form button:hover {
+  border: 2px solid #2d3436;
+}
+
+/* redes sociais */
+#contato {
+  list-style: none;
+  padding: 0;
+}
+
+#contato li {
+  display: inline;
+  margin-right: 10px;
+}
+
+#contato a {
+  text-decoration: none;
+  color: #35424a;
+}
+
+#contato li a:hover {
+  color: #1d9ee8;
+} 
+
+footer {
+  background-color: #35424a;
+  color: #FFF;
+  text-align: center;
+  padding: 10px 0px;
+  margin-top: 20px;
+}
+
+.fa-linkedin {
+  color: #1d9ee8;
+}
+
+.fa-whatsapp {
+  color: #00ff0d;
+}
